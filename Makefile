@@ -2,7 +2,7 @@ CC = g++
 CFLAGS = -Wall -std=c++20
 LDFLAGS = -lSDL2 
 
-EXEC = game
+EXEC = underStone
 SRC = $(wildcard *.cpp)
 HDR = $(wildcard *.hpp)
 OBJ = $(SRC:.cpp=.o)
@@ -15,4 +15,4 @@ $(EXEC): $(OBJ)
 
 clean:
 	rm -f *.o
-	rm -f game
+	rm -f underStone
